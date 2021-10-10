@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* 
+Farben: #565c73, #CDD4DE
+ */
+
+
+
+body {
+    background: url("http://www.supah.it/dribbble/008/008.jpg") center/cover no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    font-size: 2.3rem; 
+    font-style: italic;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+}
+
+main>p:nth-of-type(1) {
+    font-size: 15.0rem;
+    color: #CDD4DE;
+    font-weight: bolder;
+    opacity: 0.5;
+    margin: 30vh auto 0 auto;
+}
+
+main>p:nth-of-type(2) {
+    font-size: 3.0rem;
+    color: #CDD4DE;
+    opacity: 0.5;
+    margin: 0.5vh auto 0 auto;
+    font-weight: bolder;
+}
+
+main>p:nth-of-type(3) {
+    font-size: 2.0rem;
+    color: #CDD4DE;
+    opacity: 0.5;
+    margin: 4vh auto 4vh auto;
+}
+
+
+footer a {
+    font-size: 1.5em;
+    color: #565c73;
+    opacity: 0.5;
+    border: 1px solid;
+    border-color: #565c73;
+    border-radius: 3px;
+    padding: 2% 4%;
+    text-decoration: none; 
+}
+
+
+footer a:hover {
+    background:#565c73;
+    color: #CDD4DE;
+}
+
+footer {
+    width: 50vw;
+    margin: 20vh auto;
+}
